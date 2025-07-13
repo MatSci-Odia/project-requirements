@@ -1,7 +1,43 @@
 site_name: Matsci Odia Documentation
+site_url: 'https://matsci-odia.github.io/project-requirements/'
 site_description: Functional and Technical Requirements
+
+# Repository
+repo_name: 'Source'
+repo_url: 'https://github.com/MatSci-Odia/project-requirements'
+edit_uri: 'edit/main/docs'
+
 theme:
-  name: material
+  name: 'material'
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  features:
+    - tabs
+    - instant
+  language: 'en'
+  palette:
+    primary: 'deep blue'
+    accent: 'green'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+  - git-revision-date-localized:
+      type: date
+
+markdown_extensions:
+  - mdx_truly_sane_lists
+  - admonition
+  - footnotes
+  - pymdownx.superfences
+  - pymdownx.details
+  - toc:
+      permalink: true
+  - codehilite:
+      linenums: false
 
 nav:
   - Home: index.md
@@ -10,3 +46,6 @@ nav:
   - Admin Features: admin-requirements.md
   - Payments: payments.md
   - Engineering Notes: engineering-notes.md
+  - Content & Course Management: content-courses.md
+  - Infrastructure, Security, and Analytics: infrastructure.md
+  - Live Classes and Test Management: live-classes-tests.md
