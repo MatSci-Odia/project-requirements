@@ -3,3 +3,4 @@ description: Functional Requirements and Specifications for Matsci Odia Platform
 theme: jekyll-theme-minimal
 show_downloads: false
 markdown: kramdown
+baseurl: "/project-requirements"
