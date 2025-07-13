@@ -29,7 +29,6 @@ plugins:
       type: date
 
 markdown_extensions:
-  - mdx_truly_sane_lists
   - admonition
   - footnotes
   - pymdownx.superfences
