@@ -1,0 +1,1109 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Functional and Technical Requirements">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../user-requirements/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Overview - Matsci Odia Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduction" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Matsci Odia Documentation" class="md-header__button md-logo" aria-label="Matsci Odia Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Matsci Odia Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Overview
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Matsci Odia Documentation" class="md-nav__button md-logo" aria-label="Matsci Odia Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Matsci Odia Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2-user-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. User Requirements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. User Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-student-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Student Requirements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1 Student Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#authentication-and-profile-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Authentication and Profile Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#course-browsing-and-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Course Browsing and Selection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#course-enrollment-and-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      Course Enrollment and Access
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#live-lectures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Live Lectures
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recordings-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recordings Access
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exams-and-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exams and Tests
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#help-requests-good-to-have" class="md-nav__link">
+    <span class="md-ellipsis">
+      Help Requests (Good to Have)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-admin-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Admin Requirements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2 Admin Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scheduling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scheduling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#course-and-subject-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Course and Subject Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teacher-privileges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teacher Privileges
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-non-functional-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Non-Functional Requirements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Non-Functional Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scalability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scalability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reliability-and-availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reliability and Availability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Performance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#observability-and-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      Observability and Monitoring
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compliance-and-data-protection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compliance and Data Protection
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-good-to-have" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Good to Have
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Good to Have">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#api-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      API Interface
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    User Requirements
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../admin-requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Admin Features
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../payments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Payments
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../engineering-notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Engineering Notes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2-user-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. User Requirements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. User Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-student-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Student Requirements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1 Student Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#authentication-and-profile-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Authentication and Profile Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#course-browsing-and-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Course Browsing and Selection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#course-enrollment-and-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      Course Enrollment and Access
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#live-lectures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Live Lectures
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recordings-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recordings Access
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exams-and-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exams and Tests
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#help-requests-good-to-have" class="md-nav__link">
+    <span class="md-ellipsis">
+      Help Requests (Good to Have)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-admin-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Admin Requirements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2 Admin Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scheduling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scheduling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#course-and-subject-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Course and Subject Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teacher-privileges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teacher Privileges
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-non-functional-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Non-Functional Requirements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Non-Functional Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scalability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scalability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reliability-and-availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reliability and Availability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Performance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#observability-and-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      Observability and Monitoring
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compliance-and-data-protection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compliance and Data Protection
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-good-to-have" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Good to Have
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Good to Have">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#api-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      API Interface
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="introduction">Introduction</h1>
+<p>This document outlines the software requirements for the development of an Matsci Odia learning platform aimed at providing a comprehensive educational experience for students. The platform will allow students to access courses, attend live lectures, participate in discussions, take exams, and interact with teachers.</p>
+<hr />
+<h2 id="2-user-requirements">2. User Requirements</h2>
+<h3 id="21-student-requirements">2.1 Student Requirements</h3>
+<h4 id="authentication-and-profile-management">Authentication and Profile Management</h4>
+<ul>
+<li>Students should be able to register and login using multiple providers such as Google and custom signup.</li>
+<li>Phone number and email should be unique identifiers and mandatory for registration.</li>
+</ul>
+<h4 id="course-browsing-and-selection">Course Browsing and Selection</h4>
+<ul>
+<li>Students can browse through available courses categorized into Class 9, Class 10, Class 11, Class 12, and Diploma Courses.</li>
+<li>Courses can be categorized into Free and Paid, with different pricing options.</li>
+<li>Each course may contain single subjects or packaged with multiple subjects:<ul>
+<li>IT Course – IT</li>
+<li>BIPCM – Biology, Physics, Chemistry, Mathematics</li>
+<li>PCMI – Physics, Chemistry, Mathematics, IT</li>
+</ul>
+</li>
+</ul>
+<h4 id="course-enrollment-and-access">Course Enrollment and Access</h4>
+<ul>
+<li>Students can purchase courses based on their interests.</li>
+<li>Free courses can be accessed for attending live lectures and viewing recordings.</li>
+</ul>
+<h4 id="live-lectures">Live Lectures</h4>
+<ul>
+<li>Students can attend scheduled live lectures.</li>
+<li>Features include:<ul>
+<li>Chat, raise hands, and control streaming quality (default 320p)</li>
+<li>Speak with the teacher when allowed to unmute</li>
+<li>Multiple students can communicate simultaneously</li>
+<li>Teachers can block students from chat and voice</li>
+<li>Share screens, use whiteboards, and present PDFs, Docs, Videos, etc.</li>
+<li>Teachers can run polls (MCQ), show leaderboard</li>
+</ul>
+</li>
+</ul>
+<h4 id="recordings-access">Recordings Access</h4>
+<ul>
+<li>Students can access past and uploaded live session recordings</li>
+<li>Recordings should be auto-saved and accessible</li>
+</ul>
+<h4 id="exams-and-tests">Exams and Tests</h4>
+<ul>
+<li>Objective and Subjective exams</li>
+<li>Raise exam/test related queries in-app</li>
+</ul>
+<h4 id="help-requests-good-to-have">Help Requests <em>(Good to Have)</em></h4>
+<ul>
+<li>Students can raise help requests</li>
+<li>Teachers can respond live</li>
+</ul>
+<hr />
+<h3 id="22-admin-requirements">2.2 Admin Requirements</h3>
+<h4 id="scheduling">Scheduling</h4>
+<ul>
+<li>Admin can schedule live classes, tests, exams, and webinars</li>
+</ul>
+<h4 id="course-and-subject-management">Course and Subject Management</h4>
+<ul>
+<li>Admin can create and manage courses and subjects</li>
+</ul>
+<h4 id="user-management">User Management</h4>
+<ul>
+<li>Admin can manage teacher accounts</li>
+</ul>
+<h4 id="teacher-privileges">Teacher Privileges</h4>
+<ul>
+<li>Teachers can have admin rights</li>
+<li>Multiple admins can exist</li>
+</ul>
+<hr />
+<h2 id="3-non-functional-requirements">3. Non-Functional Requirements</h2>
+<h3 id="security">Security</h3>
+<ul>
+<li>Enforce secure login using OAuth and OTP-based mechanisms</li>
+<li>All communication must be encrypted using HTTPS/TLS</li>
+<li>Store sensitive information (e.g., passwords, payment data) using strong encryption standards (e.g., bcrypt, AES-256)</li>
+<li>Implement role-based access control (RBAC) for restricting user capabilities</li>
+</ul>
+<h3 id="scalability">Scalability</h3>
+<ul>
+<li>The system must support <strong>5+ concurrent live classes</strong>, each handling <strong>1,000+ students</strong> simultaneously without affecting performance</li>
+<li>Backend services should be auto-scalable using cloud-native orchestration (e.g., Kubernetes or serverless functions)</li>
+<li>Content delivery (live streams, video recordings, documents) must be optimized via <strong>global CDNs</strong></li>
+<li>Real-time chat and interaction systems should scale to handle bursts of usage, especially during exams or lectures</li>
+<li>System must support future growth: up to <strong>100,000+ daily active users</strong></li>
+</ul>
+<h3 id="reliability-and-availability">Reliability and Availability</h3>
+<ul>
+<li>Ensure <strong>99.9% uptime</strong> with high availability configurations (multi-zone deployments, failover clusters)</li>
+<li>Implement retry mechanisms and queue buffering (e.g., message queues) to handle spikes in load</li>
+<li>Graceful degradation strategies should ensure platform responsiveness even under partial failures</li>
+<li>Data backup strategy must include automated nightly backups and on-demand snapshots</li>
+</ul>
+<h3 id="performance">Performance</h3>
+<ul>
+<li>Live streaming must support <strong>adaptive bitrate streaming (ABR)</strong> to accommodate students with low bandwidth</li>
+<li>Load time for any page (including dashboard and course content) must be <strong>&lt; 2 seconds</strong> on average</li>
+<li>Real-time interactions (chat, polls, raise hand) must reflect actions within <strong>250ms latency</strong></li>
+<li>Caching strategies (browser, server-side, and CDN) should be implemented for static content</li>
+</ul>
+<h3 id="usability">Usability</h3>
+<ul>
+<li>The user interface should be optimized for:<ul>
+<li>Desktop, tablet, and mobile devices (responsive design)</li>
+<li>Touch and keyboard navigation</li>
+<li>Screen reader accessibility (WCAG 2.1 Level AA compliance)</li>
+</ul>
+</li>
+<li>Navigation should be intuitive with minimal clicks to reach key features like joining a class, viewing recordings, or accessing test materials</li>
+<li>The app should provide offline indicators and retry behavior when the connection is unstable</li>
+</ul>
+<h3 id="observability-and-monitoring">Observability and Monitoring</h3>
+<ul>
+<li>System must expose health checks, error logs, and metrics for real-time monitoring</li>
+<li>Integrate with centralized logging (e.g., ELK/EFK stack) and alerting systems (e.g., Prometheus + Grafana, New Relic)</li>
+<li>Automatically track latency, CPU usage, memory usage, and queue depth for all microservices</li>
+</ul>
+<h3 id="compliance-and-data-protection">Compliance and Data Protection</h3>
+<ul>
+<li>Adhere to GDPR and local data protection laws for student and teacher data</li>
+<li>Allow users to delete their accounts and associated data (Right to be Forgotten)</li>
+<li>Maintain an audit trail of significant user actions (logins, content access, test submissions)</li>
+</ul>
+<hr />
+<h2 id="4-good-to-have">4. Good to Have</h2>
+<h3 id="api-interface">API Interface</h3>
+<ul>
+<li>API support for third-party integrations (e.g., scheduling systems)</li>
+</ul>
+<hr />
+<h2 id="5-conclusion">5. Conclusion</h2>
+<p>This document captures all the core and extended software requirements for the Matsci Odia platform, ensuring that it delivers an effective, scalable, and user-friendly experience for students and administrators alike.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
