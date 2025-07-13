@@ -41,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://matsci-odia.github.io/project-requirements/technical-requirements/</loc>
+         <lastmod>2025-07-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://matsci-odia.github.io/project-requirements/user-requirements/</loc>
          <lastmod>2025-07-13</lastmod>
          <changefreq>daily</changefreq>
