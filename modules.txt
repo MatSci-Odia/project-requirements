@@ -5,4 +5,3 @@ markdown-include
 mkdocs-git-revision-date-localized-plugin
 mkdocs-awesome-pages-plugin
 mkdocs-minify-plugin
-mdx-truly-sane-lists
