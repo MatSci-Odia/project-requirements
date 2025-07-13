@@ -1,0 +1,12 @@
+site_name: Matsci Odia Documentation
+site_description: Functional and Technical Requirements
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Overview: overview.md
+  - User Requirements: user-requirements.md
+  - Admin Features: admin-requirements.md
+  - Payments: payments.md
+  - Engineering Notes: engineering-notes.md
