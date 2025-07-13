@@ -1,6 +1,6 @@
 title: Matsci Odia Requirements Documentation
 description: Functional Requirements and Specifications for Matsci Odia Platform
-theme: just-the-docs
+theme: jekyll-theme-cayman
 show_downloads: false
 markdown: kramdown
 baseurl: "/project-requirements"
