@@ -10,6 +10,12 @@
 ## Super Admin Features
 - Full Admin access
 - Learning analytics dashboard
+- analytics of sells, abonderned cart etc.
 - Add students manually
 - Monitor user behavior and identify at-risk students
 - Global system configuration and permissions
+
+##Teacher Admin Features
+- Schedule live classes, go live on scheduled class, create and modify tests, webinars
+- add videos, pdfs, tests, and image files
+- access student progress 
